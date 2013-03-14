@@ -25,10 +25,10 @@ test:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: sample_app_test
+  database: Sample_App_Development
   pool: 5
-  username: root
-  password:
+  username: sample_app_user
+  password: roadrunner
   socket: /var/run/mysqld/mysqld.sock
 
 production:
