@@ -1,8 +1,8 @@
 SampleApp::Application.routes.draw do
  
-  get "users/new"
+ resources :users
 
- get "users/new" #keeping this for now.
+# get "users/new" #keeping this for now.
 
  #-- The manual way of defining routes --#
  # get "static_pages/home"
